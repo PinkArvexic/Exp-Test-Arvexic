@@ -11,5 +11,5 @@ local args = {
 }
 
 game:GetService(“ReplicatedStorage”).TreasureEvent:FireServer(unpack(args))
-wait(0.1)
+wait(0.5)
 end
